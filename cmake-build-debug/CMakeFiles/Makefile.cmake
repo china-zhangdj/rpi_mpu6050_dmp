@@ -44,6 +44,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/sensor_lib.dir/DependInfo.cmake"
+  "CMakeFiles/motion.dir/DependInfo.cmake"
   "CMakeFiles/motion_sensor_shared_object.dir/DependInfo.cmake"
   )

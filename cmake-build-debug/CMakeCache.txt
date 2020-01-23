@@ -178,6 +178,9 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
+//Dependencies for target
+motion_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 motion_sensor_shared_object_BINARY_DIR:STATIC=/tmp/tmp.JmsztnfQdH/cmake-build-debug
 

@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /tmp/tmp.JmsztnfQdH
 CMAKE_BINARY_DIR = /tmp/tmp.JmsztnfQdH/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/sensor_lib.dir
+# Target rules for target CMakeFiles/motion.dir
 
 # All Build rule for target.
-CMakeFiles/sensor_lib.dir/all:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/depend
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11 "Built target sensor_lib"
-.PHONY : CMakeFiles/sensor_lib.dir/all
+CMakeFiles/motion.dir/all:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/depend
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target motion"
+.PHONY : CMakeFiles/motion.dir/all
 
 # Include target in all.
-all: CMakeFiles/sensor_lib.dir/all
+all: CMakeFiles/motion.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sensor_lib.dir/rule: cmake_check_build_system
+CMakeFiles/motion.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sensor_lib.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/motion.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/sensor_lib.dir/rule
+.PHONY : CMakeFiles/motion.dir/rule
 
 # Convenience name for target.
-sensor_lib: CMakeFiles/sensor_lib.dir/rule
+motion: CMakeFiles/motion.dir/rule
 
-.PHONY : sensor_lib
-
-# clean rule for target.
-CMakeFiles/sensor_lib.dir/clean:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/clean
-.PHONY : CMakeFiles/sensor_lib.dir/clean
+.PHONY : motion
 
 # clean rule for target.
-clean: CMakeFiles/sensor_lib.dir/clean
+CMakeFiles/motion.dir/clean:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/clean
+.PHONY : CMakeFiles/motion.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/motion.dir/clean
 
 .PHONY : clean
 
@@ -103,7 +103,7 @@ clean: CMakeFiles/sensor_lib.dir/clean
 CMakeFiles/motion_sensor_shared_object.dir/all:
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/depend
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target motion_sensor_shared_object"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles --progress-num=6,7,8,9,10,11 "Built target motion_sensor_shared_object"
 .PHONY : CMakeFiles/motion_sensor_shared_object.dir/all
 
 # Include target in all.

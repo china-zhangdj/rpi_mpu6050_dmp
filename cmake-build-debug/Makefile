@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sensor_lib
+# Target rules for targets named motion
 
 # Build rule for target.
-sensor_lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_lib
-.PHONY : sensor_lib
+motion: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 motion
+.PHONY : motion
 
 # fast build rule for target.
-sensor_lib/fast:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/build
-.PHONY : sensor_lib/fast
+motion/fast:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/build
+.PHONY : motion/fast
 
 #=============================================================================
 # Target rules for targets named motion_sensor_shared_object
@@ -142,7 +142,7 @@ i2cdev/i2cdev.o: i2cdev/i2cdev.c.o
 
 # target to build an object file
 i2cdev/i2cdev.c.o:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/i2cdev/i2cdev.c.o
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/i2cdev/i2cdev.c.o
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o
 .PHONY : i2cdev/i2cdev.c.o
 
@@ -152,7 +152,7 @@ i2cdev/i2cdev.i: i2cdev/i2cdev.c.i
 
 # target to preprocess a source file
 i2cdev/i2cdev.c.i:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/i2cdev/i2cdev.c.i
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/i2cdev/i2cdev.c.i
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.i
 .PHONY : i2cdev/i2cdev.c.i
 
@@ -162,7 +162,7 @@ i2cdev/i2cdev.s: i2cdev/i2cdev.c.s
 
 # target to generate assembly for a file
 i2cdev/i2cdev.c.s:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/i2cdev/i2cdev.c.s
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/i2cdev/i2cdev.c.s
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.s
 .PHONY : i2cdev/i2cdev.c.s
 
@@ -172,7 +172,7 @@ inv_mpu/inv_mpu.o: inv_mpu/inv_mpu.c.o
 
 # target to build an object file
 inv_mpu/inv_mpu.c.o:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/inv_mpu/inv_mpu.c.o
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/inv_mpu/inv_mpu.c.o
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o
 .PHONY : inv_mpu/inv_mpu.c.o
 
@@ -182,7 +182,7 @@ inv_mpu/inv_mpu.i: inv_mpu/inv_mpu.c.i
 
 # target to preprocess a source file
 inv_mpu/inv_mpu.c.i:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/inv_mpu/inv_mpu.c.i
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/inv_mpu/inv_mpu.c.i
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.i
 .PHONY : inv_mpu/inv_mpu.c.i
 
@@ -192,7 +192,7 @@ inv_mpu/inv_mpu.s: inv_mpu/inv_mpu.c.s
 
 # target to generate assembly for a file
 inv_mpu/inv_mpu.c.s:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/inv_mpu/inv_mpu.c.s
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/inv_mpu/inv_mpu.c.s
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.s
 .PHONY : inv_mpu/inv_mpu.c.s
 
@@ -202,7 +202,7 @@ inv_mpu/inv_mpu_dmp_motion_driver.o: inv_mpu/inv_mpu_dmp_motion_driver.c.o
 
 # target to build an object file
 inv_mpu/inv_mpu_dmp_motion_driver.c.o:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o
 .PHONY : inv_mpu/inv_mpu_dmp_motion_driver.c.o
 
@@ -212,7 +212,7 @@ inv_mpu/inv_mpu_dmp_motion_driver.i: inv_mpu/inv_mpu_dmp_motion_driver.c.i
 
 # target to preprocess a source file
 inv_mpu/inv_mpu_dmp_motion_driver.c.i:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.i
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.i
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.i
 .PHONY : inv_mpu/inv_mpu_dmp_motion_driver.c.i
 
@@ -222,7 +222,7 @@ inv_mpu/inv_mpu_dmp_motion_driver.s: inv_mpu/inv_mpu_dmp_motion_driver.c.s
 
 # target to generate assembly for a file
 inv_mpu/inv_mpu_dmp_motion_driver.c.s:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.s
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.s
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.s
 .PHONY : inv_mpu/inv_mpu_dmp_motion_driver.c.s
 
@@ -259,7 +259,7 @@ sensor.o: sensor.cpp.o
 
 # target to build an object file
 sensor.cpp.o:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/sensor.cpp.o
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/sensor.cpp.o
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o
 .PHONY : sensor.cpp.o
 
@@ -269,7 +269,7 @@ sensor.i: sensor.cpp.i
 
 # target to preprocess a source file
 sensor.cpp.i:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/sensor.cpp.i
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/sensor.cpp.i
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.i
 .PHONY : sensor.cpp.i
 
@@ -279,7 +279,7 @@ sensor.s: sensor.cpp.s
 
 # target to generate assembly for a file
 sensor.cpp.s:
-	$(MAKE) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/sensor.cpp.s
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/sensor.cpp.s
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.s
 .PHONY : sensor.cpp.s
 
@@ -291,7 +291,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... sensor_lib"
+	@echo "... motion"
 	@echo "... motion_sensor_shared_object"
 	@echo "... i2cdev/i2cdev.o"
 	@echo "... i2cdev/i2cdev.i"

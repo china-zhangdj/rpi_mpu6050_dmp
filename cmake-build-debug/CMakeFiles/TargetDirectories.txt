@@ -1,4 +1,4 @@
 /tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles/edit_cache.dir
-/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles/sensor_lib.dir
+/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles/motion.dir
 /tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles/motion_sensor_shared_object.dir

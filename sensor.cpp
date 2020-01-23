@@ -209,9 +209,9 @@ void motion_update(void)
     gyro_y = gyro[1] ;
     gyro_z = gyro[2] ;
 
-    roll = ypr[0] ;
+    yaw = ypr[0] ;
     pitch = ypr[1] ;
-    yaw = ypr[2] ;
+    roll = ypr[2] ;
 
     q0 = q.w ;
     q1 = q.x ;

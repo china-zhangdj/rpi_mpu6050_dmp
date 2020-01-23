@@ -14,6 +14,9 @@ CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o
 CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o: ../inv_mpu/inv_mpu_dmp_motion_driver.c
 CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o: ../inv_mpu/inv_mpu_dmp_motion_driver.h
 
+CMakeFiles/motion_sensor_shared_object.dir/main.cpp.o: ../helper_3dmath.h
+CMakeFiles/motion_sensor_shared_object.dir/main.cpp.o: ../inv_mpu/inv_mpu.h
+CMakeFiles/motion_sensor_shared_object.dir/main.cpp.o: ../inv_mpu/inv_mpu_dmp_motion_driver.h
 CMakeFiles/motion_sensor_shared_object.dir/main.cpp.o: ../main.cpp
 CMakeFiles/motion_sensor_shared_object.dir/main.cpp.o: ../sensor.h
 
