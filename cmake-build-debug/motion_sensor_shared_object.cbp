@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="motion_sensor_shared_object"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.JmsztnfQdH/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.JmsztnfQdH/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.JmsztnfQdH/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor_lib">
+				<Option output="/tmp/tmp.JmsztnfQdH/cmake-build-debug/libsensor_lib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.JmsztnfQdH/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensor_lib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor_lib/fast">
+				<Option output="/tmp/tmp.JmsztnfQdH/cmake-build-debug/libsensor_lib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.JmsztnfQdH/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensor_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motion_sensor_shared_object">
+				<Option output="/tmp/tmp.JmsztnfQdH/cmake-build-debug/motion_sensor_shared_object" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.JmsztnfQdH/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 motion_sensor_shared_object"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motion_sensor_shared_object/fast">
+				<Option output="/tmp/tmp.JmsztnfQdH/cmake-build-debug/motion_sensor_shared_object" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.JmsztnfQdH/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 motion_sensor_shared_object/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.JmsztnfQdH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/i2cdev/i2cdev.c">
+			<Option target="sensor_lib"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/i2cdev/i2cdev.h">
+			<Option target="sensor_lib"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu.c">
+			<Option target="sensor_lib"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu.h">
+			<Option target="sensor_lib"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu_dmp_motion_driver.c">
+			<Option target="sensor_lib"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu_dmp_motion_driver.h">
+			<Option target="sensor_lib"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/main.cpp">
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/sensor.cpp">
+			<Option target="sensor_lib"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/sensor.h">
+			<Option target="sensor_lib"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

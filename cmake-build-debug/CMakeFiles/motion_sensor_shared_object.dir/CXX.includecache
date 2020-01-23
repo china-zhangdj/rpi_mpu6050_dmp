@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.JmsztnfQdH/helper_3dmath.h
+
+/tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu.h
+
+/tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu_dmp_motion_driver.h
+
+/tmp/tmp.JmsztnfQdH/main.cpp
+iostream
+-
+sensor.h
+/tmp/tmp.JmsztnfQdH/sensor.h
+
+/tmp/tmp.JmsztnfQdH/sensor.cpp
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+stdint.h
+-
+string.h
+-
+math.h
+-
+helper_3dmath.h
+/tmp/tmp.JmsztnfQdH/helper_3dmath.h
+inv_mpu/inv_mpu.h
+/tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu.h
+inv_mpu/inv_mpu_dmp_motion_driver.h
+/tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu_dmp_motion_driver.h
+sensor.h
+/tmp/tmp.JmsztnfQdH/sensor.h
+
+/tmp/tmp.JmsztnfQdH/sensor.h
+
