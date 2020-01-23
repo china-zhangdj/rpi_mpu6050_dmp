@@ -201,13 +201,13 @@ void motion_update(void)
 {
     ms_update() ;
 
-    acc_x = accel[0] ;
+    acc_x = accel[2] ;
     acc_y = accel[1] ;
-    acc_z = accel[2] ;
+    acc_z = accel[0] ;
 
-    gyro_x = gyro[0] ;
+    gyro_x = gyro[2] ;
     gyro_y = gyro[1] ;
-    gyro_z = gyro[2] ;
+    gyro_z = gyro[0] ;
 
     yaw = ypr[0] ;
     pitch = ypr[1] ;
@@ -218,9 +218,9 @@ void motion_update(void)
     q1 = q.x ;
     q2 = q.y ;
     q3 = q.z ;
-    
-    
-    
+
+
+
     float  norm = 1 / sqrt(q0*q0 + q1*q1 + q2*q2 + q3*q3) ;
     q0 = q0 * norm;
     q1 = q1 * norm;
