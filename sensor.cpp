@@ -213,10 +213,22 @@ void motion_update(void)
     pitch = ypr[1] ;
     roll = ypr[2] ;
 
+
     q0 = q.w ;
     q1 = q.x ;
     q2 = q.y ;
     q3 = q.z ;
+    
+    
+    
+    float  norm = 1 / sqrt(q0*q0 + q1*q1 + q2*q2 + q3*q3) ;
+    q0 = q0 * norm;
+    q1 = q1 * norm;
+    q2 = q2 * norm;
+    q3 = q3 * norm;
+
+
+
 
     temprate = temp ;
 }
