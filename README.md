@@ -14,14 +14,19 @@
 ```python
 import ctypes
 
-dll_file = "libsensor_lib.dll"
+dll_file = "/lib/sensor/motion/libmotion.so"
 
 motion_sensor = ctypes.CDLL(dll_file)
 
 motion_sensor.motion_setup()
 
+
 while True :
-    
-    pass
+    motion_sensor.motion_update()
+    roll = ctypes.c_float.in_dll(motion_sensor,"roll")
+    print(roll.value)
+
+
+motion_sensor.motion_close()
 
 ```
