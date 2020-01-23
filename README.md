@@ -4,9 +4,9 @@
 
 >###  this project was a shared library source and cmake result .
 >>you can use the .so file with python on raspberry pi or ubuntu.
->>and library file was in directory cmake-build-debug/libsensor_lib.so
+>>and library file was in directory cmake-build-debug/libmotion.so
 
->link : [libsensor_lib.so](https://github.com/china-zhangdj/rpi_mpu6050_dmp/blob/master/cmake-build-debug/libsensor_lib.so)
+>link : [libsmotion.so](https://github.com/china-zhangdj/rpi_mpu6050_dmp/blob/master/cmake-build-debug/libsensor_lib.so)
 -----------------------------------------
 
 ###example:
