@@ -130,38 +130,38 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/tmp/tmp.JmsztnfQdH/i2cdev/i2cdev.c">
-			<Option target="motion"/>
-			<Option target="motion_sensor_shared_object"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.JmsztnfQdH/i2cdev/i2cdev.h">
-			<Option target="motion"/>
-			<Option target="motion_sensor_shared_object"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu.c">
-			<Option target="motion"/>
-			<Option target="motion_sensor_shared_object"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu.h">
-			<Option target="motion"/>
-			<Option target="motion_sensor_shared_object"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu_dmp_motion_driver.c">
-			<Option target="motion"/>
-			<Option target="motion_sensor_shared_object"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu_dmp_motion_driver.h">
-			<Option target="motion"/>
-			<Option target="motion_sensor_shared_object"/>
-		</Unit>
 		<Unit filename="/tmp/tmp.JmsztnfQdH/main.cpp">
 			<Option target="motion_sensor_shared_object"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.JmsztnfQdH/sensor.cpp">
+		<Unit filename="/tmp/tmp.JmsztnfQdH/motion/i2cdev/i2cdev.c">
 			<Option target="motion"/>
 			<Option target="motion_sensor_shared_object"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.JmsztnfQdH/sensor.h">
+		<Unit filename="/tmp/tmp.JmsztnfQdH/motion/i2cdev/i2cdev.h">
+			<Option target="motion"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/motion/inv_mpu/inv_mpu.c">
+			<Option target="motion"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/motion/inv_mpu/inv_mpu.h">
+			<Option target="motion"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/motion/inv_mpu/inv_mpu_dmp_motion_driver.c">
+			<Option target="motion"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/motion/inv_mpu/inv_mpu_dmp_motion_driver.h">
+			<Option target="motion"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/motion/sensor.cpp">
+			<Option target="motion"/>
+			<Option target="motion_sensor_shared_object"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.JmsztnfQdH/motion/sensor.h">
 			<Option target="motion"/>
 			<Option target="motion_sensor_shared_object"/>
 		</Unit>

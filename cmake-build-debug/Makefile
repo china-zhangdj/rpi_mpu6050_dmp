@@ -136,96 +136,6 @@ motion_sensor_shared_object/fast:
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/build
 .PHONY : motion_sensor_shared_object/fast
 
-i2cdev/i2cdev.o: i2cdev/i2cdev.c.o
-
-.PHONY : i2cdev/i2cdev.o
-
-# target to build an object file
-i2cdev/i2cdev.c.o:
-	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/i2cdev/i2cdev.c.o
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o
-.PHONY : i2cdev/i2cdev.c.o
-
-i2cdev/i2cdev.i: i2cdev/i2cdev.c.i
-
-.PHONY : i2cdev/i2cdev.i
-
-# target to preprocess a source file
-i2cdev/i2cdev.c.i:
-	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/i2cdev/i2cdev.c.i
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.i
-.PHONY : i2cdev/i2cdev.c.i
-
-i2cdev/i2cdev.s: i2cdev/i2cdev.c.s
-
-.PHONY : i2cdev/i2cdev.s
-
-# target to generate assembly for a file
-i2cdev/i2cdev.c.s:
-	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/i2cdev/i2cdev.c.s
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.s
-.PHONY : i2cdev/i2cdev.c.s
-
-inv_mpu/inv_mpu.o: inv_mpu/inv_mpu.c.o
-
-.PHONY : inv_mpu/inv_mpu.o
-
-# target to build an object file
-inv_mpu/inv_mpu.c.o:
-	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/inv_mpu/inv_mpu.c.o
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o
-.PHONY : inv_mpu/inv_mpu.c.o
-
-inv_mpu/inv_mpu.i: inv_mpu/inv_mpu.c.i
-
-.PHONY : inv_mpu/inv_mpu.i
-
-# target to preprocess a source file
-inv_mpu/inv_mpu.c.i:
-	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/inv_mpu/inv_mpu.c.i
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.i
-.PHONY : inv_mpu/inv_mpu.c.i
-
-inv_mpu/inv_mpu.s: inv_mpu/inv_mpu.c.s
-
-.PHONY : inv_mpu/inv_mpu.s
-
-# target to generate assembly for a file
-inv_mpu/inv_mpu.c.s:
-	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/inv_mpu/inv_mpu.c.s
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.s
-.PHONY : inv_mpu/inv_mpu.c.s
-
-inv_mpu/inv_mpu_dmp_motion_driver.o: inv_mpu/inv_mpu_dmp_motion_driver.c.o
-
-.PHONY : inv_mpu/inv_mpu_dmp_motion_driver.o
-
-# target to build an object file
-inv_mpu/inv_mpu_dmp_motion_driver.c.o:
-	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o
-.PHONY : inv_mpu/inv_mpu_dmp_motion_driver.c.o
-
-inv_mpu/inv_mpu_dmp_motion_driver.i: inv_mpu/inv_mpu_dmp_motion_driver.c.i
-
-.PHONY : inv_mpu/inv_mpu_dmp_motion_driver.i
-
-# target to preprocess a source file
-inv_mpu/inv_mpu_dmp_motion_driver.c.i:
-	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.i
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.i
-.PHONY : inv_mpu/inv_mpu_dmp_motion_driver.c.i
-
-inv_mpu/inv_mpu_dmp_motion_driver.s: inv_mpu/inv_mpu_dmp_motion_driver.c.s
-
-.PHONY : inv_mpu/inv_mpu_dmp_motion_driver.s
-
-# target to generate assembly for a file
-inv_mpu/inv_mpu_dmp_motion_driver.c.s:
-	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.s
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.s
-.PHONY : inv_mpu/inv_mpu_dmp_motion_driver.c.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -253,35 +163,125 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-sensor.o: sensor.cpp.o
+motion/i2cdev/i2cdev.o: motion/i2cdev/i2cdev.c.o
 
-.PHONY : sensor.o
+.PHONY : motion/i2cdev/i2cdev.o
 
 # target to build an object file
-sensor.cpp.o:
-	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/sensor.cpp.o
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o
-.PHONY : sensor.cpp.o
+motion/i2cdev/i2cdev.c.o:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/motion/i2cdev/i2cdev.c.o
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o
+.PHONY : motion/i2cdev/i2cdev.c.o
 
-sensor.i: sensor.cpp.i
+motion/i2cdev/i2cdev.i: motion/i2cdev/i2cdev.c.i
 
-.PHONY : sensor.i
+.PHONY : motion/i2cdev/i2cdev.i
 
 # target to preprocess a source file
-sensor.cpp.i:
-	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/sensor.cpp.i
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.i
-.PHONY : sensor.cpp.i
+motion/i2cdev/i2cdev.c.i:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/motion/i2cdev/i2cdev.c.i
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.i
+.PHONY : motion/i2cdev/i2cdev.c.i
 
-sensor.s: sensor.cpp.s
+motion/i2cdev/i2cdev.s: motion/i2cdev/i2cdev.c.s
 
-.PHONY : sensor.s
+.PHONY : motion/i2cdev/i2cdev.s
 
 # target to generate assembly for a file
-sensor.cpp.s:
-	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/sensor.cpp.s
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.s
-.PHONY : sensor.cpp.s
+motion/i2cdev/i2cdev.c.s:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/motion/i2cdev/i2cdev.c.s
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.s
+.PHONY : motion/i2cdev/i2cdev.c.s
+
+motion/inv_mpu/inv_mpu.o: motion/inv_mpu/inv_mpu.c.o
+
+.PHONY : motion/inv_mpu/inv_mpu.o
+
+# target to build an object file
+motion/inv_mpu/inv_mpu.c.o:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/motion/inv_mpu/inv_mpu.c.o
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o
+.PHONY : motion/inv_mpu/inv_mpu.c.o
+
+motion/inv_mpu/inv_mpu.i: motion/inv_mpu/inv_mpu.c.i
+
+.PHONY : motion/inv_mpu/inv_mpu.i
+
+# target to preprocess a source file
+motion/inv_mpu/inv_mpu.c.i:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/motion/inv_mpu/inv_mpu.c.i
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.i
+.PHONY : motion/inv_mpu/inv_mpu.c.i
+
+motion/inv_mpu/inv_mpu.s: motion/inv_mpu/inv_mpu.c.s
+
+.PHONY : motion/inv_mpu/inv_mpu.s
+
+# target to generate assembly for a file
+motion/inv_mpu/inv_mpu.c.s:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/motion/inv_mpu/inv_mpu.c.s
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.s
+.PHONY : motion/inv_mpu/inv_mpu.c.s
+
+motion/inv_mpu/inv_mpu_dmp_motion_driver.o: motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o
+
+.PHONY : motion/inv_mpu/inv_mpu_dmp_motion_driver.o
+
+# target to build an object file
+motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o
+.PHONY : motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o
+
+motion/inv_mpu/inv_mpu_dmp_motion_driver.i: motion/inv_mpu/inv_mpu_dmp_motion_driver.c.i
+
+.PHONY : motion/inv_mpu/inv_mpu_dmp_motion_driver.i
+
+# target to preprocess a source file
+motion/inv_mpu/inv_mpu_dmp_motion_driver.c.i:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.i
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.i
+.PHONY : motion/inv_mpu/inv_mpu_dmp_motion_driver.c.i
+
+motion/inv_mpu/inv_mpu_dmp_motion_driver.s: motion/inv_mpu/inv_mpu_dmp_motion_driver.c.s
+
+.PHONY : motion/inv_mpu/inv_mpu_dmp_motion_driver.s
+
+# target to generate assembly for a file
+motion/inv_mpu/inv_mpu_dmp_motion_driver.c.s:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.s
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.s
+.PHONY : motion/inv_mpu/inv_mpu_dmp_motion_driver.c.s
+
+motion/sensor.o: motion/sensor.cpp.o
+
+.PHONY : motion/sensor.o
+
+# target to build an object file
+motion/sensor.cpp.o:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/motion/sensor.cpp.o
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o
+.PHONY : motion/sensor.cpp.o
+
+motion/sensor.i: motion/sensor.cpp.i
+
+.PHONY : motion/sensor.i
+
+# target to preprocess a source file
+motion/sensor.cpp.i:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/motion/sensor.cpp.i
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.i
+.PHONY : motion/sensor.cpp.i
+
+motion/sensor.s: motion/sensor.cpp.s
+
+.PHONY : motion/sensor.s
+
+# target to generate assembly for a file
+motion/sensor.cpp.s:
+	$(MAKE) -f CMakeFiles/motion.dir/build.make CMakeFiles/motion.dir/motion/sensor.cpp.s
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.s
+.PHONY : motion/sensor.cpp.s
 
 # Help Target
 help:
@@ -293,21 +293,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... motion"
 	@echo "... motion_sensor_shared_object"
-	@echo "... i2cdev/i2cdev.o"
-	@echo "... i2cdev/i2cdev.i"
-	@echo "... i2cdev/i2cdev.s"
-	@echo "... inv_mpu/inv_mpu.o"
-	@echo "... inv_mpu/inv_mpu.i"
-	@echo "... inv_mpu/inv_mpu.s"
-	@echo "... inv_mpu/inv_mpu_dmp_motion_driver.o"
-	@echo "... inv_mpu/inv_mpu_dmp_motion_driver.i"
-	@echo "... inv_mpu/inv_mpu_dmp_motion_driver.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... sensor.o"
-	@echo "... sensor.i"
-	@echo "... sensor.s"
+	@echo "... motion/i2cdev/i2cdev.o"
+	@echo "... motion/i2cdev/i2cdev.i"
+	@echo "... motion/i2cdev/i2cdev.s"
+	@echo "... motion/inv_mpu/inv_mpu.o"
+	@echo "... motion/inv_mpu/inv_mpu.i"
+	@echo "... motion/inv_mpu/inv_mpu.s"
+	@echo "... motion/inv_mpu/inv_mpu_dmp_motion_driver.o"
+	@echo "... motion/inv_mpu/inv_mpu_dmp_motion_driver.i"
+	@echo "... motion/inv_mpu/inv_mpu_dmp_motion_driver.s"
+	@echo "... motion/sensor.o"
+	@echo "... motion/sensor.i"
+	@echo "... motion/sensor.s"
 .PHONY : help
 
 

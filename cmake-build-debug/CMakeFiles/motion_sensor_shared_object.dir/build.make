@@ -57,100 +57,100 @@ include CMakeFiles/motion_sensor_shared_object.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/motion_sensor_shared_object.dir/flags.make
 
-CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o: CMakeFiles/motion_sensor_shared_object.dir/flags.make
-CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o: ../sensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o -c /tmp/tmp.JmsztnfQdH/sensor.cpp
+CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o: CMakeFiles/motion_sensor_shared_object.dir/flags.make
+CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o: ../motion/sensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o -c /tmp/tmp.JmsztnfQdH/motion/sensor.cpp
 
-CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.JmsztnfQdH/sensor.cpp > CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.i
+CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.JmsztnfQdH/motion/sensor.cpp > CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.i
 
-CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.JmsztnfQdH/sensor.cpp -o CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.s
+CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.JmsztnfQdH/motion/sensor.cpp -o CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.s
 
-CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o.requires:
+CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o.requires:
 
-.PHONY : CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o.requires
+.PHONY : CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o.requires
 
-CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o.provides: CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o.requires
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o.provides.build
-.PHONY : CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o.provides
+CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o.provides: CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o.provides.build
+.PHONY : CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o.provides
 
-CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o.provides.build: CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o
-
-
-CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o: CMakeFiles/motion_sensor_shared_object.dir/flags.make
-CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o: ../i2cdev/i2cdev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o   -c /tmp/tmp.JmsztnfQdH/i2cdev/i2cdev.c
-
-CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.JmsztnfQdH/i2cdev/i2cdev.c > CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.i
-
-CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.JmsztnfQdH/i2cdev/i2cdev.c -o CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.s
-
-CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o.requires:
-
-.PHONY : CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o.requires
-
-CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o.provides: CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o.requires
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o.provides.build
-.PHONY : CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o.provides
-
-CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o.provides.build: CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o
+CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o.provides.build: CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o
 
 
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o: CMakeFiles/motion_sensor_shared_object.dir/flags.make
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o: ../inv_mpu/inv_mpu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o   -c /tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu.c
+CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o: CMakeFiles/motion_sensor_shared_object.dir/flags.make
+CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o: ../motion/i2cdev/i2cdev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o   -c /tmp/tmp.JmsztnfQdH/motion/i2cdev/i2cdev.c
 
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu.c > CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.i
+CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.JmsztnfQdH/motion/i2cdev/i2cdev.c > CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.i
 
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu.c -o CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.s
+CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.JmsztnfQdH/motion/i2cdev/i2cdev.c -o CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.s
 
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o.requires:
+CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o.requires:
 
-.PHONY : CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o.requires
+.PHONY : CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o.requires
 
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o.provides: CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o.requires
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o.provides.build
-.PHONY : CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o.provides
+CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o.provides: CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o.requires
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o.provides.build
+.PHONY : CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o.provides
 
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o.provides.build: CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o
+CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o.provides.build: CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o
 
 
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o: CMakeFiles/motion_sensor_shared_object.dir/flags.make
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o: ../inv_mpu/inv_mpu_dmp_motion_driver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o   -c /tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu_dmp_motion_driver.c
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o: CMakeFiles/motion_sensor_shared_object.dir/flags.make
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o: ../motion/inv_mpu/inv_mpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o   -c /tmp/tmp.JmsztnfQdH/motion/inv_mpu/inv_mpu.c
 
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu_dmp_motion_driver.c > CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.i
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.JmsztnfQdH/motion/inv_mpu/inv_mpu.c > CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.i
 
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.JmsztnfQdH/inv_mpu/inv_mpu_dmp_motion_driver.c -o CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.s
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.JmsztnfQdH/motion/inv_mpu/inv_mpu.c -o CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.s
 
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o.requires:
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o.requires:
 
-.PHONY : CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o.requires
+.PHONY : CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o.requires
 
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o.provides: CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o.requires
-	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o.provides.build
-.PHONY : CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o.provides
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o.provides: CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o.requires
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o.provides.build
+.PHONY : CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o.provides
 
-CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o.provides.build: CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o.provides.build: CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o
+
+
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o: CMakeFiles/motion_sensor_shared_object.dir/flags.make
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o: ../motion/inv_mpu/inv_mpu_dmp_motion_driver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.JmsztnfQdH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o   -c /tmp/tmp.JmsztnfQdH/motion/inv_mpu/inv_mpu_dmp_motion_driver.c
+
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.JmsztnfQdH/motion/inv_mpu/inv_mpu_dmp_motion_driver.c > CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.i
+
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.JmsztnfQdH/motion/inv_mpu/inv_mpu_dmp_motion_driver.c -o CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.s
+
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o.requires:
+
+.PHONY : CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o.requires
+
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o.provides: CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o.requires
+	$(MAKE) -f CMakeFiles/motion_sensor_shared_object.dir/build.make CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o.provides.build
+.PHONY : CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o.provides
+
+CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o.provides.build: CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o
 
 
 CMakeFiles/motion_sensor_shared_object.dir/main.cpp.o: CMakeFiles/motion_sensor_shared_object.dir/flags.make
@@ -179,19 +179,19 @@ CMakeFiles/motion_sensor_shared_object.dir/main.cpp.o.provides.build: CMakeFiles
 
 # Object files for target motion_sensor_shared_object
 motion_sensor_shared_object_OBJECTS = \
-"CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o" \
-"CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o" \
-"CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o" \
-"CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o" \
+"CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o" \
+"CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o" \
+"CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o" \
+"CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o" \
 "CMakeFiles/motion_sensor_shared_object.dir/main.cpp.o"
 
 # External object files for target motion_sensor_shared_object
 motion_sensor_shared_object_EXTERNAL_OBJECTS =
 
-motion_sensor_shared_object: CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o
-motion_sensor_shared_object: CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o
-motion_sensor_shared_object: CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o
-motion_sensor_shared_object: CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o
+motion_sensor_shared_object: CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o
+motion_sensor_shared_object: CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o
+motion_sensor_shared_object: CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o
+motion_sensor_shared_object: CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o
 motion_sensor_shared_object: CMakeFiles/motion_sensor_shared_object.dir/main.cpp.o
 motion_sensor_shared_object: CMakeFiles/motion_sensor_shared_object.dir/build.make
 motion_sensor_shared_object: CMakeFiles/motion_sensor_shared_object.dir/link.txt
@@ -203,10 +203,10 @@ CMakeFiles/motion_sensor_shared_object.dir/build: motion_sensor_shared_object
 
 .PHONY : CMakeFiles/motion_sensor_shared_object.dir/build
 
-CMakeFiles/motion_sensor_shared_object.dir/requires: CMakeFiles/motion_sensor_shared_object.dir/sensor.cpp.o.requires
-CMakeFiles/motion_sensor_shared_object.dir/requires: CMakeFiles/motion_sensor_shared_object.dir/i2cdev/i2cdev.c.o.requires
-CMakeFiles/motion_sensor_shared_object.dir/requires: CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu.c.o.requires
-CMakeFiles/motion_sensor_shared_object.dir/requires: CMakeFiles/motion_sensor_shared_object.dir/inv_mpu/inv_mpu_dmp_motion_driver.c.o.requires
+CMakeFiles/motion_sensor_shared_object.dir/requires: CMakeFiles/motion_sensor_shared_object.dir/motion/sensor.cpp.o.requires
+CMakeFiles/motion_sensor_shared_object.dir/requires: CMakeFiles/motion_sensor_shared_object.dir/motion/i2cdev/i2cdev.c.o.requires
+CMakeFiles/motion_sensor_shared_object.dir/requires: CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu.c.o.requires
+CMakeFiles/motion_sensor_shared_object.dir/requires: CMakeFiles/motion_sensor_shared_object.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o.requires
 CMakeFiles/motion_sensor_shared_object.dir/requires: CMakeFiles/motion_sensor_shared_object.dir/main.cpp.o.requires
 
 .PHONY : CMakeFiles/motion_sensor_shared_object.dir/requires

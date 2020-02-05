@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libmotion.so -o libmotion.so CMakeFiles/motion.dir/motion/sensor.cpp.o CMakeFiles/motion.dir/motion/i2cdev/i2cdev.c.o CMakeFiles/motion.dir/motion/inv_mpu/inv_mpu.c.o CMakeFiles/motion.dir/motion/inv_mpu/inv_mpu_dmp_motion_driver.c.o 

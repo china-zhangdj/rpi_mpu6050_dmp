@@ -187,9 +187,6 @@ motion_sensor_shared_object_BINARY_DIR:STATIC=/tmp/tmp.JmsztnfQdH/cmake-build-de
 //Value Computed by CMake
 motion_sensor_shared_object_SOURCE_DIR:STATIC=/tmp/tmp.JmsztnfQdH
 
-//Dependencies for target
-sensor_lib_LIB_DEPENDS:STATIC=
-
 
 ########################
 # INTERNAL cache entries
