@@ -2,14 +2,14 @@
 
 -----------------------------------------
 
->###  this project was a shared library source and cmake result .
+###  This project was a shared library source and cmake result for using MPU6050+DMP on Linux platform .
 >>you can use the .so file with python on raspberry pi or ubuntu.
 >>and library file was in directory cmake-build-debug/libmotion.so
 
 >link : [libsmotion.so](https://github.com/china-zhangdj/rpi_mpu6050_dmp/blob/master/cmake-build-debug/libsensor_lib.so)
 -----------------------------------------
 
-###example:
+### example:
 
 ```python
 import ctypes
